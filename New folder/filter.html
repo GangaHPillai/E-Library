@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="angular.min.js"></script>
+    <script src="filter_app.js"></script>
+</head>
+<body ng-app="MyApp">
+    <div ng-controller="MyCtrl">
+        Rows to Display:<input type="number" step="1" min="0" max="39" ng-model="rowlimit" />
+        <br \>
+        <br \>
+
+        Search:<input type="text" placeholder="Seach Cars" ng-model="Search" />
+        <br \>
+        <br \>
+        <table>
+            <tr>
+                <th>Brand</th>
+                <th>Models</th>
+            </tr>
+            <tbody>
+                <tr ng-repeat="car in cars | limitTo:rowlimit |filter:Search ">
+                    <td>{{car.brand | uppercase}}</td>
+                    <td>{{car.models | lowercase}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+</body>
+</html>

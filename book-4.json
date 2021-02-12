@@ -1,0 +1,26 @@
+[
+    {
+      "name": "THE SPLENDID AND THE VILE: A SAGA OF CHURCHILL, FAMILY, AND DEFIANCE DURING THE BLITZ",
+      "author" : "ERIK LARSON",
+      "detail": {
+        "release": [" ","FEBRUARY 2020"],
+        "genres": ["BIOGRAPHY"]
+      }
+    },
+    {
+      "name": "THE VANISHING HALF",
+      "author" : "BRIT BENNETT",
+      "detail": {
+        "release": [" ", "JUNE 2020"],
+        "genres": ["FICTION, ", "MYSTERY, ", "FAMILY SAGA"]
+      }
+    },
+    {
+      "name": "TWISTED TWENTY-SIX",
+      "author" : "JANET EVANOVICH",
+      "detail": {
+        "release": [" ", "NOVEMBER 2019"],
+        "genres": ["HUMOUR, ", "MYSTERY, ", "FICTION"]
+      }
+    }
+  ]

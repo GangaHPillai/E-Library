@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>E- Library</title>
+    <link rel="stylesheet" href="tt.css">
+    <script src="https://code.angularjs.org/1.2.16/angular.js"></script>
+    <script src="js/jfm.js"></script>
+  </head>
+
+  <body ng-app="App">
+      <style>
+          body{
+              color: crimson;
+    margin:10px;
+    font-size:14px;
+    font-family:Arial;
+  }
+  table{
+    border:2px solid #333;
+    border-collapse:collapse;
+    width:100%;
+  }
+  table tr td{
+    border:2px solid #333;
+    padding:10px;
+  }
+  table tr td span{
+    cursor:pointer;
+  }
+      </style>
+    <br><h1>UPDATE YOUR BOOKS LIST HERE.......</h1><br><br>
+
+
+  <div ng-controller="CrudCtrl">
+    <table>
+      <tr>
+        <td>Book</td>
+        <td>Author</td>
+        <td>Price</td>
+        <td><span ng-click="add()">Add New Book</span></td>
+      </tr>
+      <tr ng-repeat="book in book">
+        <td>
+          <input type="text" ng-model="book.name" ng-show="book.editable">
+          <span ng-hide="book.editable">{{ book.name }}</span>
+        </td>
+        <td>
+          <input type="text" ng-model="book.author" ng-show="book.editable">
+          <span ng-hide="book.editable">{{ book.author }}</span>
+        </td>
+        <td>
+            <input type="number" ng-model="book.price" ng-show="book.editable">
+            <span ng-hide="book.editable">{{ book.price }}</span>
+          </td>
+          <td>
+          <span ng-click="edit($index)" ng-hide="book.editable">Edit</span>
+          <span ng-click="save($index)" ng-show="book.editable">Save</span>
+          <span ng-click="delete($index)"> | Delete</span>
+        </td>
+      </tr>
+    </table>
+  </div>
+  </body>
+
+</html>

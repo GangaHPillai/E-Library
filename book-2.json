@@ -1,0 +1,26 @@
+[
+    {
+      "name": "ANGELS AND DEMONS",
+      "author" : "DAN BROWN",
+      "detail": {
+        "release": [" ", "MAY 2000"],
+        "genres": ["THRILLER, ", "SUSPENSE, ", "CRIME FICTION"]
+      }
+    },
+    {
+      "name": "HARRY POTTER AND THE ORDER OF THE PHOENIX",
+      "author" : "J. K ROWLING",
+      "detail": {
+        "release": [" ","JUNE 2003"],
+        "genres": ["FANTASY"]
+      }
+    },
+    {
+      "name": "ONE ARRANGED MURDER",
+      "author" : "CHETAN BHAGAT",
+      "detail": {
+        "release": [" ","SEPTEMBER 2020"],
+        "genres": ["THRILLER, ", "MYSTERY"]
+      }
+    }
+  ]

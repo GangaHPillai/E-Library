@@ -1,0 +1,26 @@
+[
+    {
+      "name": "LIFE OF PI",
+      "author" : "YANN MARTEL",
+      "detail": {
+        "release": [" ","SEPTEMBER 2001"],
+        "genres": ["PSYCHOLOGICAL FICTION"]
+      }
+    },
+    {
+      "name": "THE GOD OF SMALL THINGS",
+      "author" : "ARUNDHATI ROY",
+      "detail": {
+        "release": [" ", "AUGUST 1997"],
+        "genres": ["DOMESTIC FICTION"]
+      }
+    },
+    {
+      "name": "LEGEND OF SUHELDEV: THE KING WHO SAVED INDIA",
+      "author" : "AMISH TRIPATHI",
+      "detail": {
+        "release": [" ","JUNE 2020"],
+        "genres": ["HISTORICAL FICTION"]
+      }
+    }
+  ]

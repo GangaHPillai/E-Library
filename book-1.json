@@ -1,0 +1,26 @@
+[
+    {
+      "name": "THE LORD OF THE RINGS",
+      "author" : "J. R. R TOLKIEN",
+      "detail": {
+        "release": [" ","JULY 1954"],
+        "genres": ["FANTASY, ", "ADVENTURE"]
+      }
+    },
+    {
+      "name": "BECOMING",
+      "author" : "MICHELLE OBAMA",
+      "detail": {
+        "release": [" ","NOVEMBER 2018"],
+        "genres": ["AUTOBIOGRAPHY"]
+      }
+    },
+    {
+      "name": "A PROMISED LAND",
+      "author" : "BARACK OBAMA",
+      "detail": {
+        "release": [" ","NOVEMBER 2020"],
+        "genres": ["MEMOIR"]
+      }
+    }
+  ]

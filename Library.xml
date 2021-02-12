@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Library.xsl"?>
+<Library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="Library.xsd">
+<Book>
+    <Title>Java</Title>
+    <Author>Oracle</Author>
+    <ISBN>62345</ISBN>
+    <Price>350</Price>
+</Book>
+
+<Book>
+    <Title>C++</Title>
+    <Author>Oracle</Author>
+    <ISBN>54321</ISBN>
+    <Price>500</Price>
+</Book>
+
+<Book>
+    <Title>Android</Title>
+    <Author>Google</Author>
+    <ISBN>67890</ISBN>
+    <Price>2000</Price>
+</Book>
+
+<Book>
+    <Title>Html,Css,Javascript</Title>
+    <Author>Oracle</Author>
+    <ISBN>09876</ISBN>
+    <Price>700</Price>
+</Book>
+
+<Book>
+    <Title>ASP.NET</Title>
+    <Author>Microsoft</Author>
+    <ISBN>12378</ISBN>
+    <Price>500</Price>
+</Book>
+
+<Book>
+    <Title>Java</Title>
+    <Author>Oracle</Author>
+    <ISBN>12345</ISBN>
+    <Price>500</Price>
+</Book>
+</Library>
